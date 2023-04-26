@@ -16,4 +16,4 @@ It was created using HTML5, CSS3 and Vanilla JavaScript.
 
 ## View it live
 
-You can view the project and try it out here.
+You can view the project and try it out [here](https://rclarkeweb.github.io/Book-Club-Invitation/).
