@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Invitation Card</title>
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+    
+    </head>
+    <body>
+        <div id="popup">
+            <p id="submitmsg">
+            </p>
+        </div>
+        <div class="container" >
+            <div class="content">
+                <div class="content-card">
+                        <div id="content">
+                            <h5 class="ticket">Ticket #<span id="ticketNum"></span></h5>
+                            <h4 class="invite">We invite you to our monthly</h4>
+
+                            <h1 class="headline">Book Club</h1>
+                            <h4 class="dates">29/11 - 10/12</h4>
+
+                            <div class="rsvp">
+                                <h3>Will you be coming?</h3>
+                                <div class="btn" onclick="declineAlert()" >
+                                    <p>No</p>
+                                </div>
+                                <div class="btn" onclick="signUpPrompt()" >
+                                    <p>Yes</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
